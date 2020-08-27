@@ -313,7 +313,11 @@
     "vào đâu để đăng ký t24",
     "vào làm NH mà ko có T24, chỉ giúp vs",
     "Tôi cần truy cập T24 trong hôm nay thì làm thế nào",
-    "Mình cần tài khoản T24"
+    "Mình cần tài khoản T24",
+    "Anh cần tài khoản T24.",
+    "không có tk để đăng nhập t24",
+    "không có tk t24",
+    "tao, tôi, tớ , mình , Toa …. Cần T24 "
   ],
   "Cấp mới T24_Thủ tục": [
     "Anh chị hướng dẫn giúp em cách cấp mới user T24 với ạ.",
@@ -365,7 +369,28 @@
     "Nhân viên mới cần cấp user T24 ",
     "Nhân viên mới xin cấp T24 thì như thế nào?",
     "cấp user T24 cho người mới",
-    "Kính nhờ trung tâm hỗ trợ mở user T24 cho CBNV mới."
+    "Kính nhờ trung tâm hỗ trợ mở user T24 cho CBNV mới.",
+    "Bạn có mở tài khoản T24 cho tôi được không?",
+    "các thủ tục cấp mới T24 là gì",
+    "Cấp mới tài khoản  T24 cho người mới vào làm như thế nào",
+    "cấp user T24 ",
+    "chưa có tài khoản t24 thì mở như nào",
+    "có link nào hướng dẫn cấp T24 không chỉ phát",
+    "đang không có T24 đây. Cho xin cái T24 đi mày?",
+    "đăng ký tài khoản t24 ở đâu",
+    "Để được tạo mới tài khoản T24 thì anh phải làm gì?",
+    "e nhân viên mới, cần hỗ trợ cấp t24",
+    "Em cần giúp đỡ cấp mới tài khoản T24.",
+    "Em là nhân viên mới, em cần được cấp mới tài khoản ở hệ thống T24.",
+    "Giúp em vụ cấp mới T24 với",
+    "làm sao để có t24 nhỉ người ae thiện nành?",
+    "Làm thế nào để có user T24 ",
+    "Mình muốn có user T24 thì làm những gì",
+    "mới vào SeaBank ko có T24 phải làm sao nhỉ chú em?",
+    "Thủ tục cấp T24 là gì?",
+    "tôi mới là nhân viên chính thức muốn có t24 thì sẽ cần làm gì ",
+    "tôi muốn cấp user T24 thì cần làm gì",
+    "Tôi xin cấp tài khoản T24 có được không?"
   ],
   "Cấp mới T24_Cấp phê duyệt": [
     "ai là người phê duyệt cấp user T24",
@@ -394,7 +419,14 @@
     "PGD có thể phê duyệt cấp T24 hay không",
     "GĐCN có quyền phê duyệt T24 hay không",
     "tôi cần xin chữ kí của GĐ hay PGD hay GĐCN để được duyệt cấp T24",
-    "phê duyệt cấp T24 cần chữ kí của ai xác nhận"
+    "phê duyệt cấp T24 cần chữ kí của ai xác nhận",
+    "Tôi là giám đốc PGD có thể đề nghị cấp T24 cho NV tại PGD được không?",
+    "Cho mình hỏi ở Hội sở thì xác nhận T24 là ai nếu không có GĐCN",
+    "GĐ PGD kí có đc trên mẫu biểu cấp T24 không",
+    "Giám Đốc nào ký mẫu biểu cấp T24",
+    "Phó Giám Đốc Chi Nhánh xác nhận cấp user T24 có được không",
+    "Tôi gửi mail có cc cho Giám Đốc đơn vị thì có đc cấp user T24 không",
+    "Tôi là CV KHCN, KHDN cần cấp T24 tôi cần xin xác nhận từ ai."
   ],
 
   "Cấp mới T24_Chế độ tiếp nhận\nint_create_t24_onboarding": [
@@ -415,7 +447,10 @@
     "nhân viên học việc có được cấp T24 hay không",
     "T24 có cần thiết cho nhân viên thử việc",
     "T24 có cần thiết cho nhân viên học việc",
-    "T24 có được cấp trong thời gian thử thách không"
+    "T24 có được cấp trong thời gian thử thách không",
+    "Minh là nhân viên học việc cấp T24 cần làm gì",
+    "học việc cũng là nhân viên NH mà ko có T24 làm việc làm sao, hướng dẫn giúp",
+    "tuy là học việc nhưng t cần T24 cho công việc , chỉ phát"
   ],
   "Cấp mới T24_Mẫu biểu T24": [
     "Biểu mẫu cấp T24 ở đâu? ",
@@ -437,7 +472,11 @@
     "mẫu biểu T24 lấy ở đâu",
     "download mẫu biểu T24 ở đâu",
     "cần link download mẫu biểu T24",
-    "không tìm thấy mẫu biểu T24"
+    "không tìm thấy mẫu biểu T24",
+    "Chào bạn, nhờ cung cấp giúp tôi đường dẫn ổ chung giấy đề nghị cấp T24?",
+    "mẫu biểu T24 ở đâu",
+    "Nhờ anh chị gửi biểu mẫu cấp T24 ? ",
+    "Tôi muốn xin mẫu biểu Đăng Ký T24 thì lấy ở đâu."
   ],
   "Cấp mới T24_Đối tượng\nint_create_t24_subject": [
     "Đối tượng nào được cấp mới tài khoản T24?",
@@ -453,7 +492,9 @@
     "tài khoản T24 được cấp mới cho những đối tượng nào",
     "bộ phận nào mới được cấp mới tài khoản T24",
     "các đối tượng nào được cấp mới tài khoản T24",
-    "cấp mới tài khoản T24 cho ai"
+    "cấp mới tài khoản T24 cho ai",
+    "nhưng phòng ban nào sẽ được xin cấp t24",
+    "Những trường hợp được cấp T24 là như nào hả bạn?"
   ],
   "Cấp mới T24_Thời gian cam kết": [
     "Đã gửi biểu mẫu cấp user T24 nhờ anh chị hỗ trợ? ",
@@ -464,7 +505,8 @@
     "thời gian sau khi hoàn tất thủ tục xin cấp T24 là bao lâu",
     "Cần cấp T24 nhanh nhất trong bao lâu",
     "trường hợp khẩn cấp cần cấp T24 mất bao lâu",
-    "muốn cấp nhanh tài khoản T24 mất bao lâu"
+    "muốn cấp nhanh tài khoản T24 mất bao lâu",
+    "Cấp mới tài khoản T24 mất bao nhiêu thời gian"
   ],
   "Cấp mới T24_Cấp mới mặc định": [
     "t tưởng vừa vào Sea là phải mặc định dc T24 chứ, cần hướng dẫn gấp",
@@ -477,7 +519,8 @@
     "muốn cấp mới tự động mặc định user T24 thì phải làm thế nào",
     "SeABank đã xây dựng việc cấp user T24 tự động mặc định theo chức danh chưa",
     "nhân viên SeABank được cấp user T24 tự động mặc định theo chức danh đúng không",
-    "là nhân viên Seabank thì được cấp mới mặc định"
+    "là nhân viên Seabank thì được cấp mới mặc định",
+    "tôi tưởng vừa vào Seabank là phải auto dc T24 chứ"
   ],
   "Cấp mới T24_File đề nghị cấp T24 (int_create_t24_attached)": [
     "cấp user hạch toán cho GDV NGUYEN THI HAI ANH theo hồ sơ đính kèm",
@@ -488,7 +531,8 @@
     "muốn hỗ trợ cấp T24 thì gửi file đề nghị cấp T24 cho bên nào",
     "bộ phận nào sẽ xử lý file đề nghị cấp T24",
     "muốn cấp T24 thì làm thế nào",
-    "hoàn thành file đề nghị cấp T24 và cần hỗ trợ"
+    "hoàn thành file đề nghị cấp T24 và cần hỗ trợ",
+    "Nhờ IT hỗ trợ cấp  user cho  T24 cho các  cán bộ nhân viên sau theo file đính kèm."
   ],
   "Cấp mới T24_FAQ": [
     "tại sao tôi chưa có user T24",
@@ -498,6 +542,9 @@
     "hướng dẫn điền mẫu biểu cấp T24",
     "Phải cấp mới T24 thì mới làm được việc ah?",
     "tài khoản t24 và máy tính có chung nhau không, hay cấp riêng",
-    "Hôm trước em có gửi mail về việc cấp User T24 nhưng do bị thiếu chữ ký trên đơn đề nghị, nay em bổ sung bản đầy đủ "
+    "Hôm trước em có gửi mail về việc cấp User T24 nhưng do bị thiếu chữ ký trên đơn đề nghị, nay em bổ sung bản đầy đủ ",
+    "newbie được cấp T24 ko",
+    "Tôi là teller mới ký hd thử việc 2 tháng, có được cấp T24 không, ",
+    "Tôi đã được cấp mới tài khoản T24, vậy tiếp theo tôi phải làm gì?"
   ]
 }
