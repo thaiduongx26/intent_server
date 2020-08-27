@@ -31,7 +31,7 @@ def level2_filter(message):
 
 
 if __name__ == '__main__':
-    msg = 'em là thực tập sinh có được cấp t24 không'
-    print(handle_request(msg))
-    msg = 'Mình có mặc định được cấp tài khoản t24 không'
+    # msg = 'em là thực tập sinh có được cấp t24 không'
+    # print(handle_request(msg))
+    msg = 'chao anh, em dung day tu chieu'
     print(handle_request(msg))

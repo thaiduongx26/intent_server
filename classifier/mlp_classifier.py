@@ -11,7 +11,7 @@ from classifier import ai_path
 x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
 sorted_x = sorted(x.items(), key=operator.itemgetter(1))
 
-stopwords = ['anh', 'em', 'minh', 'toi', 'tao', 'toa', 't24', 'coi', 'boi', 'ban', 'may', 'sasa']
+stopwords = ['anh', 'em', 'minh', 'toi', 'tao', 'toa', 't24', 'coi', 'boi', 'ban', 'may', 'sasa', 'chao', 'hello']
 
 remove_regex = [re.compile(f'\s+{w}') for w in stopwords] + [re.compile(r'\s+e\s+')]
 edit_regex = {re.compile('cbnv'): 'nhan vien', re.compile('tk'): 'tai khoan',
@@ -53,6 +53,8 @@ def preprocess(sentence):
         sentence = re.sub(reg, '', sentence)
     for reg in edit_regex:
         sentence = re.sub(reg, edit_regex[reg], sentence)
+    # print("sentence: ", sentence)
+    # 1/0
     return sentence
 
 
@@ -164,6 +166,8 @@ class MLClassifier(object):
             self.cls = pickle.load(f)
 
     def predict(self, sentence):
+        if len(preprocess(unidecode.unidecode(sentence.lower())).strip()) == 0:
+            return 'other'
         sentence = [preprocess(unidecode.unidecode(sentence.lower()))]
         x = self.vectorizer.transform(sentence)
         label = self.cls.predict(x)[0]
