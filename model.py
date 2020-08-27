@@ -33,5 +33,5 @@ def level2_filter(message):
 if __name__ == '__main__':
     # msg = 'em là thực tập sinh có được cấp t24 không'
     # print(handle_request(msg))
-    msg = 'Giám đốc có được quyền cấp t24 ko nhỉ'
+    msg = 'fuck you sb'
     print(handle_request(msg))
