@@ -11,7 +11,8 @@ from classifier import ai_path
 x = {1: 2, 3: 4, 4: 3, 2: 1, 0: 0}
 sorted_x = sorted(x.items(), key=operator.itemgetter(1))
 
-stopwords = ['anh', 'em', 'minh', 'toi', 'tao', 'toa', 't24', 'coi', 'boi', 'ban', 'may', 'sasa', 'chao', 'hello']
+stopwords = ['anh', 'em', 'minh', 'toi', 'tao', 'toa', 't24', 'coi', 'boi', 'ban', 'may', 'sasa', 'chao', 'hello', 'he',
+             'nho', 'nhe', ]
 
 remove_regex = [re.compile(f'\s+{w}') for w in stopwords] + [re.compile(r'\s+e\s+')]
 edit_regex = {re.compile('cbnv'): 'nhan vien', re.compile('tk'): 'tai khoan',
@@ -170,6 +171,8 @@ class MLClassifier(object):
             return 'other'
         sentence = [preprocess(unidecode.unidecode(sentence.lower()))]
         x = self.vectorizer.transform(sentence)
+        if sum(x.todense().tolist()[0]) == 0:
+            return 'other'
         label = self.cls.predict(x)[0]
         return label
 
